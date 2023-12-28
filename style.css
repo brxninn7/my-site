@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(_images/img.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.wrapper{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.name h1{
+    text-align: center;
+}
+.name i{
+    display: flex;
+    justify-content: center;
+    position: center;
+    right: 20px;
+    top: 50px;
+    transform: translateY(-200%) translateX(0%);
+
+}
+
+
+.twitter-link a{
+    display: flex;
+    justify-content: center;
+    position: center;
+
+}
+.twitter-link i{
+    display: flex;
+    justify-content: center;
+    position: center;
+    right: 20px;
+    top: 50px;
+    transform: translateY(-125%) translateX(12%);
+
+}
+.twitter-link a{
+    color: #fff;
+    text-decoration: none;
+}
+.twitter-link a:hover{
+    text-decoration: underline;
+}
+
+.osu-link a{
+    display: flex;
+    justify-content: center;
+    position: center;
+}
+.osu-link a{
+    color: #fff;
+    text-decoration: none;
+}
+.osu-link a:hover{
+    text-decoration: underline;
+}
+.osu-link i{
+    display: flex;
+    justify-content: center;
+    position: center;
+    right: 20px;
+    top: 50px;
+    transform: translateY(-125%) translateX(12%);
+}
+
+.github-link a{
+    display: flex;
+    justify-content: center;
+    position: center;
+
+}
+.github-link a{
+    color: #fff;
+    text-decoration: none;
+}
+.github-link a:hover{
+    text-decoration: underline;
+}
+.github-link i{
+    display: flex;
+    justify-content: center;
+    position: center;
+    right: 20px;
+    top: 50px;
+    transform: translateY(-125%) translateX(12%);
+}
